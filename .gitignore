@@ -1,0 +1,20 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+src/.DS_Store
+src/images/.DS_Store
+src/audio/.DS_Store
+fonts/.DS_Store
+
+# Ignore IDE configurations
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build artifacts
+/dist/
+/build/
