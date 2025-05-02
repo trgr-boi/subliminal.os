@@ -22,13 +22,13 @@ function handleCommand(inputCommand) {
                 clearOutput();
                 break;
             case "shutdown":
-                window.location.href = "https://www.trgr.site/";
+                window.open("https://trgr.site");
                 break;
             case "ls":
                 showFiles();
                 break;
-            case "depo":
-                window.open("https://github.com/trgr-boi");
+            case "repo":
+                window.open("https://github.com/trgr-boi/subliminal.os");
                 break;
             case "exit":
                 suLogout();
@@ -55,8 +55,8 @@ function showHelp() {
     appendOutput(" - find out more about this.<br>│ ");
     appendOutput("whoami", "color1");
     appendOutput(" - Who even am I?<br>│ ");
-    appendOutput("depo", "color1");
-    appendOutput(" - go to Github page.<br>");
+    appendOutput("repo", "color1");
+    appendOutput(" - go to Github repository.<br>");
     appendOutput("Files:<br>│ ");
     appendOutput("ls", "color1");
     appendOutput(" - lists files in user directory.<br>│ ");
