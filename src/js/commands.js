@@ -22,7 +22,7 @@ function handleCommand(inputCommand) {
                 clearOutput();
                 break;
             case "shutdown":
-                window.location.href = "www.trgr.site/";
+                window.location.href = "https://www.trgr.site/";
                 break;
             case "ls":
                 showFiles();
